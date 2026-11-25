@@ -10,16 +10,29 @@
 
 <body>
 
-    <header>
+    <header class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-4" href="#">Vôlei</a>
 
-        <h1>Vôlei</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao"
+                aria-controls="menuNavegacao" aria-expanded="false" aria-label="Alternar navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <nav>
-            <a href="#introducao">Introdução</a>
-            <a href="#regras">Regras</a>
-            <a href="#contato">Contato</a>
-        </nav>
-
+            <nav class="collapse navbar-collapse" id="menuNavegacao">
+                <ul class="navbar-nav ms-auto gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#introducao">Introdução</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#regras">Regras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <div id="introducao">
